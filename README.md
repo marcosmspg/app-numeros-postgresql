@@ -1,10 +1,10 @@
 # Descripción del Proyecto
 
 El proyecto despliega una aplicación que proporciona funcionalidades para la ordenación de números.
-Solo hay que ejecutar el docker-compose.yaml de la carpeta raíz. Un vez desplegado, se dispone
+Solo hay que ejecutar el **docker-compose.yaml** de la carpeta raíz. Un vez desplegado, se dispone
 de dos endpoints:
 
-```json
+```
 ENUNCIADO:
 
 Implementa un endpoint REST que reciba como parámetro de entrada una lista de enteros.
