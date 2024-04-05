@@ -31,11 +31,17 @@ Explicación:
           |    3    |   11    |
           |---------|---------|
         
-El número decimal cuya representación binaria contiene más unidades es 15 (1111 en binario),
-por lo que va primero (índice = 0). El siguiente es el 7, con tres unos en su representación binaria.
-Luego hay 2 números cuya representación binaria contiene la misma cantidad de unos, estos decimales
-son 5 y 3, ambos con 2 unos. En este caso, el número 3 va primero (más cerca del índice = 0)
-porque su representación decimal es más pequeña (3 < 5).
+- El número decimal cuya representación binaria contiene más unidades es 15 (1111 en binario),
+  por lo que va primero (índice = 0). El siguiente es el 7, con tres unos en su representación binaria.
+  Luego hay 2 números cuya representación binaria contiene la misma cantidad de unos, estos decimales
+  son 5 y 3, ambos con 2 unos. En este caso, el número 3 va primero (más cerca del índice = 0)
+  porque su representación decimal es más pequeña (3 < 5).
+
+- Tendría otro endpoint que no reciba parametros de entrada y los recoja de una base de datos
+  a partir de una imagen con docker.
+
+- Tendrá test unitario.
+
 ```
 
 ## Endpoints de Ordenación de Números
