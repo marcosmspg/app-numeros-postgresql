@@ -83,6 +83,7 @@ class NumerosControllerTest {
                 .andExpect(status().isOk())
                 .andExpect( content().string("[7,3,5,9,1]"));
     }
+
     @Test
     void testOrdenarListaNumerosNullBadRequest() throws Exception {
         // [1, 3, 5, 7, 9] = [0001, 0011, 0101, 0111, 1001]
@@ -91,6 +92,7 @@ class NumerosControllerTest {
                         .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().isBadRequest());
     }
+
     @Test
     void testOrdenarListaNumerosVaciaBadRequest() throws Exception {
         // [1, 3, 5, 7, 9] = [0001, 0011, 0101, 0111, 1001]
